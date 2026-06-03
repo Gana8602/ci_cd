@@ -11,7 +11,7 @@ permissions:
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-  IMAGE_NAME: ghcr.io/${{ github.repository_owner }}/angular-app
+  IMAGE_NAME: ghcr.io/gana8602/angular-app
 
 jobs:
   build-and-push:
